@@ -4,30 +4,27 @@
     <div class="container-fluid px-4">
         <div class="card mb-4">
             <div class="card-header">
-                <i class="fas fa-table me-1"></i>
-                <a href="/"><button type="button" class="btn btn-primary"><img src="assets/logoTambah.png">tombol</button></a>
+                <a href="/tambah"><button type="button" class="btn btn-primary"><img src="assets/logoTambah.png"> tambah</button></a>
             </div>
             <div class="card-body">
                 <table id="datatablesSimple">
                     <thead>
                         <tr>
                             <th>No</th>
-                            <th>NIK</th>
-                            <th>Nama</th>
-                            <th>Jenis Kelamin</th>
-                            <th>Alamat</th>
-                            <th>No KK</th>
+                            <th>KK</th>
+                            <th>RT/RW</th>
+                            <th>Dusun</th>
+                            <th>Kepala Keluarga</th>
                             <th>Action</th>
                         </tr>
                     </thead>
                     <tfoot>
                         <tr>
                             <th>No</th>
-                            <th>NIK</th>
-                            <th>Nama</th>
-                            <th>Jenis Kelamin</th>
-                            <th>Alamat</th>
-                            <th>No KK</th>
+                            <th>KK</th>
+                            <th>RT/RW</th>
+                            <th>Dusun</th>
+                            <th>Kepala Keluarga</th>
                             <th>Action</th>
                         </tr>
                     </tfoot>
@@ -38,10 +35,8 @@
                             <td>Edinburgh</td>
                             <td>61</td>
                             <td>2011/04/25</td>
-                            <td>$320,800</td>
                             <td>
-                                <a href="#"><img src="assets/logoInfo.png"></a>
-                                <a href="#"><img src="assets/logoEdit.png"></a>
+                                <a href="/detail_kk"><img src="assets/logoInfo.png"></a>
                                 <a href="#"><img src="assets/logoDelete.png"></a>
                             </td>
                         </tr>

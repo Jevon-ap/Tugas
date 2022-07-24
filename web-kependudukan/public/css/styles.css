@@ -2188,7 +2188,7 @@ progress {
 }
 
 .form-control, .dataTable-input {
-  display: block;
+  display: inline-block;
   width: 100%;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
@@ -11746,4 +11746,8 @@ body {
 }
 .icon:hover{
     color: white;
+}
+.icon-size{
+    width: 75px;
+    height: auto;
 }

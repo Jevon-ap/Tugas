@@ -33,4 +33,27 @@ Route::get('/data_penduduk', function () {
     ]);
 });
 
+Route::get('/tambah', function () {
+    return view('tambah',[
+        "title"=>"Tambah Data Penduduk"
+    ]);
+});
+
+Route::post('/data_penduduk', function () {
+    return view('data_penduduk',[
+        "title"=>"Data Penduduk"
+    ]);
+});
+
+Route::get('/detail', function () {
+    return view('detail',[
+        "title"=>"Detail penduduk"
+    ]);
+});
+
+Route::get('/detail_kk', function () {
+    return view('detail_kk',[
+        "title"=>"Detail Kartu Keluarga"
+    ]);
+});
 

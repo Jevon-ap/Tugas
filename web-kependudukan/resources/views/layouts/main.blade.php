@@ -25,10 +25,10 @@
                             <td rowspan="3">
                                 <div class="sb-nav-link-icon"><img src="assets/logo1.png" alt="" width="70px" ></div>
                             </td>
-                            <td class="">DataSumberejo</td>
+                            <td class="">dataSumberejo</td>
                         </tr>
                         <tr>
-                            <td class="">Dashboard</td>
+                            <td class="fs-6 text border-top text-center">Dashboard</td>
                         </tr>
                         <tr>
                             <td class=""></td>
@@ -52,14 +52,15 @@
                             </tr>
                         </table>
 
+
                     </a>
                             <a class="nav-link" href="/">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fa-solid fa-house"></i></div>
                                 Dashboard
                             </a>
 
                             <a class="nav-link collapsed " href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fa-solid fa-users"></i></div>
                                 Kelola Data
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
@@ -71,15 +72,15 @@
                             </div>
 
                             <a class="nav-link" href="index.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fa-solid fa-folder-open"></i></div>
                                 Sirkulasi Penduduk
                             </a>
                             <a class="nav-link" href="index.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fa-solid fa-image"></i></div>
                                 Kelola Surat
                             </a>
                             <a class="nav-link" href="index.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fa-solid fa-file"></i></div>
                                 Kelola laporan
                             </a>
 
@@ -89,7 +90,7 @@
                                 Pengguna Sistem
                             </a>
                             <a class="nav-link " href="tables.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fa-solid fa-right-from-bracket"></i></div>
                                 Log out
                             </a>
                         </div>
@@ -100,17 +101,18 @@
                     </div>
                 </nav>
             </div>
+
             <div id="layoutSidenav_content">
-                <nav class="sb-topnav navbar navbar-expand bg-white">
+                <nav class="sb-topnav navbar navbar-expand bg-white sticky-sm-top mx-5 radius">
                     <!-- Sidebar Toggle-->
                     <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
                     <!-- Navbar Search-->
-                    <form class="d-none d-md-inline-block form-inline  ">
+                   <!-- <form class="d-none d-md-inline-block form-inline  ">
                         <div class="input-group ">
                             <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
                             <input class="form-controls" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
                         </div>
-                    </form>
+                    </form>-->
 
                     <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0 ">
                         SISTEM MANAJEMEN DATA PENDUDUK DESA SUMBEREJO
@@ -122,7 +124,7 @@
 
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Halo,Admin</h1>
+                        
                         <div class="container-body">
                             @yield('body')
                         </div>
@@ -146,5 +148,6 @@
         <script src="js/scripts.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
         <script src="js/datatables-simple-demo.js"></script>
+
     </body>
 </html>

@@ -4,8 +4,7 @@
     <div class="container-fluid px-4">
         <div class="card mb-4">
             <div class="card-header">
-                <i class="fas fa-table me-1"></i>
-                DataTable Example
+                <a href="/tambah"><button type="button" class="btn btn-primary"><img src="assets/logoTambah.png"> tambah</button></a>
             </div>
             <div class="card-body">
                 <table id="datatablesSimple">
@@ -39,6 +38,11 @@
                             <td>61</td>
                             <td>2011/04/25</td>
                             <td>$320,800</td>
+                            <td>
+                                <a href="/detail"><img src="assets/logoInfo.png"></a>
+                                <a href="#"><img src="assets/logoEdit.png"></a>
+                                <a href="#"><img src="assets/logoDelete.png"></a>
+                            </td>
                         </tr>
                         <tr>
                             <td>Garrett Winters</td>
